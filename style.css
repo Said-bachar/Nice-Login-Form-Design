@@ -1,0 +1,109 @@
+body {
+    background: url("https://images.pexels.com/photos/1629236/pexels-photo-1629236.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: "Montserrat", sans-serif;
+}
+
+.container {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    height: 500px;
+    width: 320px;
+    box-shadow: 0px 20px 30px rgb(139, 132, 132);
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.container h1 {
+    padding: 30px;
+    color: rgb(0, 204, 255);
+}
+
+#txt {
+    padding: 7px;
+    width: 190px;
+    margin: 10px;
+    background-color: rgb(11, 75, 117);
+    border-radius: 10px 0 10px 0;
+    border: none;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+label {
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+#txt::placeholder {
+    color: white;
+}
+
+#txt:focus {
+    outline: none;
+    border-radius: 0 10px 0 10px;
+    background-color: rgb(122, 106, 177);
+    box-shadow: 1px 2px 2px 1px rgb(139, 132, 132);
+}
+
+.fp {
+    text-decoration: none;
+    color: rgb(36, 130, 238);
+    transition: 0.3s;
+}
+
+.fp:hover {
+    text-decoration: underline;
+    color: rgb(154, 176, 228);
+}
+
+button {
+    margin-top: 30px;
+    padding: 10px 40px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 10px 15px rgb(104, 91, 91);
+    background: linear-gradient(rgb(127, 127, 185), rgb(45, 45, 107));
+    transition: 0.3s;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+.icons {
+    margin-top: 30px;
+}
+
+.icons i {
+    padding-right: 10px;
+    font-size: x-large;
+}
+
+.icons i :hover {
+    transform: scale(1.1);
+}
+
+.icons a {
+    text-decoration: none;
+    color: rgb(68, 160, 184);
+    transition: 0.3s;
+}
+
+.icons a:hover {
+    color: rgb(111, 111, 158);
+}
